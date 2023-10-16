@@ -54,7 +54,8 @@ footer{
 body{
   color: #1b1d39;
   background-color: rgb(66, 52, 52);
-  background-image: url('https://wallpapercave.com/wp/wp10869917.jpg');
+  background-color: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
  
 
 }
@@ -69,7 +70,24 @@ body{
   font-size: 16px;
 }
 
-/* Hover effect */
+
 #sbmt:hover {
-  background-color: rgb(58, 89, 201) ; 
+  background-color: rgb(39, 36, 36) ; 
+} 
+
+
+
+
+
+li {
+  display: inline;
+  margin-right: 20px; 
+}
+
+a {
+  text-decoration: none;
+  color: #333; 
+  }
+a:hover {
+  color:#0e6bcf  ;
 }
