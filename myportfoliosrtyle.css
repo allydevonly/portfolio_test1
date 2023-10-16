@@ -53,26 +53,27 @@ footer{
 
 body{
   color: #1b1d39;
-  background-color: rgb(66, 52, 52);
-  background-color: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background: rgb(230,175,205);
+background: radial-gradient(circle, rgba(230,175,205,1) 9%, rgba(255,212,231,1) 33%, rgba(156,189,233,1) 95%, rgba(148,187,233,1) 100%);
  
 
 }
 
 #sbmt {
-  background-color: #2a3e53 ; 
+  background-color: #5a82ad ; 
   color: #fff; 
   padding: 10px 30px;
   border: none;
   border-radius: 6px; 
   cursor:pointer; 
   font-size: 16px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  
 }
 
 
 #sbmt:hover {
-  background-color: rgb(39, 36, 36) ; 
+  background-color: #466485 ; 
 } 
 
 
@@ -81,13 +82,50 @@ body{
 
 li {
   display: inline;
-  margin-right: 20px; 
+  margin-right: 20px;
+  
+  
+  
 }
 
-a {
+a{
   text-decoration: none;
   color: #333; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  
   }
-a:hover {
-  color:#0e6bcf  ;
+
+ #lnksk:hover {
+  
+  text-decoration:underline;
+}
+
+
+
+#lnkskbtn{
+  margin-bottom: 20px;
+  background-color:rgb(229, 108, 99);
+  border-radius: 15px;
+  border:solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+}
+
+
+ 
+.lcllinkbtn{
+  background-color:rgb(255, 226, 240);
+  border:dashed;
+  border-radius: 16px;
+  padding: 10px 30px;
+
+}
+
+.lcllinkbtn:hover {
+  background:#bfbaeb; 
+  border-style:solid;
+  border-color: #1B1D39;
 }
