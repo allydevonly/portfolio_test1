@@ -121,11 +121,12 @@ a{
   border:dashed;
   border-radius: 16px;
   padding: 10px 30px;
+  
 
 }
 
 .lcllinkbtn:hover {
-  background:#bfbaeb; 
   border-style:solid;
+  
   border-color: #1B1D39;
 }
