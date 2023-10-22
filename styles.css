@@ -15,6 +15,10 @@ main{
   
  }
 
+ #wlcm{
+  margin-top:45px ;
+ }
+
 form{
 
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
@@ -107,16 +111,49 @@ a{
 
 
 #lnkskbtn{
-  margin-bottom: 20px;
-  background-color: rgb(255, 117, 140);
-  border-radius: 15px;
-  border:solid;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 2px;
-  padding-bottom: 5px;
+
+  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: none;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 100px;
+    white-space: nowrap;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    width:50%;
+    font-size: 16px;
+    line-height: 1.00;
+    font-weight: 600;
+    background: #ff647e;
+    border: solid 2px #ff869a;
+    color: #ffffff;
+    box-shadow: 0 0 0 0 #fda4af;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.00;
+    
 }
 
+  
+   #lnkskbtn:hover{
+    box-shadow: 0 8px 10px #ffd5dc ;
+    border-style:dotted;
+   
+    
+   }
 
  
 
@@ -129,7 +166,7 @@ a{
   display: flex;
   font-family: 'Roboto', sans-serif;;
   align-items: center;
-  background:#f2f7ff;
+  background:#defcff;
   padding: 20px 12px;
   border-radius: 12px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
